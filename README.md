@@ -1,13 +1,2 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# form
-Validação de formulário com React Hook Form e Yup
->>>>>>> 82838075cd3612b5e7af1d52fe20f6af5d557955
+<h1>Validação de formulário</h1>
+<p>React Hook Form & Yup</p>
