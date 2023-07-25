@@ -1,0 +1,71 @@
+.contentForm{
+    background-color: #131313;
+    width: 450px;
+    padding: 3rem;
+    border: solid 1px #202020;
+    transition: all .5s ease;
+}
+
+.contentForm:hover{
+    border: solid 1px #131313;
+}
+
+.formGroup{
+    margin-bottom: 1.3rem;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup input[type="password"] {
+    width: 100%;
+    border: 1px solid #3e3e3e;
+    background-color: transparent;
+    padding: 0.7rem 1.5rem;
+    color: #e6e6e6;
+    font-size: 1.65rem;
+    transition: all .3s ease;
+}
+
+.formGroup input:focus{
+    border: 1px solid #e6e6e6;
+}
+
+button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-size: 1.65rem;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #e6e6e6;
+}
+
+
+.inputError{
+    border: 1px solid rgb(216, 68, 68) !important; 
+}
+
+.inputError::placeholder{
+    color: rgb(216, 68, 68);
+}
+
+.labelError{
+    color: rgb(216, 68, 68);
+    display: block;
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.sucessMessage{
+    margin-top: 0.8rem;
+    display: block;
+    font-size: 1.7rem;
+    color: rgb(173, 231, 87);
+    text-align: center;
+}
